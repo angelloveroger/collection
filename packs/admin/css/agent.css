@@ -1,0 +1,35 @@
+.login-bg{
+    background-image:url(/packs/admin/images/bg.jpg);
+    background-size: 100% 100%;
+}
+.login{
+	height: 400px;
+}
+.login .message,
+.login input[type=submit]{
+    background: #287ba5;
+}
+.left-nav a.active,.left-nav a:hover{
+    background: #287ba5 !important;
+    border-color: #065b86 !important;
+}
+.container {
+    background-color: #287ba5;
+}
+.layui-btn,
+.layui-laypage .layui-laypage-curr .layui-laypage-em,
+.layui-nav .layui-this:after, .layui-nav-bar, .layui-nav-tree .layui-nav-itemed:after{
+    background-color: #287ba5;
+}
+.layui-btn-primary{
+    background-color: #fff;
+}
+.layui-btn-normal {
+    background-color: #1E9FFF;
+}
+.page-content .layui-tab-content{
+    bottom:0;
+}
+.layui-layer .layui-layer-title{
+    background-color: #287ba5;
+}

@@ -1,0 +1,39 @@
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure,footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+body {line-height:1;}
+a{text-decoration:none;color:#000;}
+.container{width: 100%;height: 100%;}
+.container .head{height: 30px;margin-top: 10px;border-bottom: 1px solid #f6f6f6;}
+.container .head a{padding-left: 20px;} 
+.container .head span{padding: 0 30%;font-size: 20px;font-weight:800}
+.container .user_box{height: 100px;width: 100%;padding-bottom: 10px;border-bottom: 10px solid #f8f8f8;}
+.container .user_box .center{height: 100px;margin: 10px;background-color: #000000;border-radius: 5px;}
+.container .user_box .center .img_box{float: left;height: 60px;float: left;border-radius: 90px;overflow: hidden;margin-left: 20px;margin-top: 20px;}
+.container .user_box .center .img_box img{width: 60px;height: 60px;}
+.container .user_box .center .user_name{margin-left: 13px;float: left;margin-top: 38px;}
+.container .user_box .center .user_name h5{color: #fff;font-size: 18px;}
+.container .plate{height: 190px;border-bottom: 10px solid #f8f8f8;}
+.container .title{height: 25px;margin: 10px 0;line-height: 25px;}
+.container .title p{float: left;height:25px;width: 5px;background-color: #FFEB3B;}
+.container .title h4{float: left;padding-left: 10px;}
+.container .center_box{width: 95%;margin: 0 2.5%;background-color: #f8f8f8}
+.container .frame_1{height: 80px}
+.container .list{float: left;width: 33.3333%;margin-top: 20px;}
+.container .w25 .list{width: 25%;}
+.container .list h4{text-align:center}
+.container .list p{text-align:center;color: #b79963;font-size: 12px;padding-top: 10px;padding-left: 2px}
+.container .list img{width: 50px;height: 50px;border-radius: 20px;margin: 0 30%;}
+.container .block{padding-bottom:30px;}
+.container .button{text-align: center;height: 30px;line-height: 30px;margin: 0px 32%;background-color: #ffd400;border-radius: 20px;font-size: 14px;}
+.dot{width: 8px;height: 8px;background-color: #fff;border-radius: 50%;border:6px solid #ffc107;margin-top: 5px;}
+.poster{width: 100%;height: 160px;background-color: #000}
+.poster p{color: #fff;text-align:center;padding-top: 50px;padding-bottom: 20px;font-size: 24px}
+.modular{padding:10px 20px;border-bottom: 10px solid #f8f8f8;}
+.modular .gd-30{height: 30px}
+.modular .gd-30 h4{float: left;width: 90%;padding-left: 10px;font-size: 14px;padding-bottom: 5px;line-height: 30px;border-bottom: 2px solid #f8f8f8;}
+.modular .describe{letter-spacing: 2px;padding-top: 15px;line-height: 30px;text-indent: 2em;}
+.modular .describe span{color: #dca500;}
+.exhibition{height: 20px;margin-top: 25px}
+.exhibition p{font-size: 14px;}
+.exhibition h4{float: left;padding-left: 5px;line-height: 20px;}
+.exhibition span{color: #dca500;padding-left: 10px;line-height: 20px;}
+.exhibition img{margin-right: 3px;}

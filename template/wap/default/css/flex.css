@@ -1,0 +1,232 @@
+/* 弹性布局盒模型 */
+.flex {
+	display: -moz-box;
+	/* Firefox */
+	display: -ms-flexbox;
+	/* IE10 */
+	display: -webkit-box;
+	/* Safari */
+	display: -webkit-flex;
+	/* Chrome, WebKit */
+	display: box;
+	display: flexbox;
+	display: flex;
+}
+.flex1{
+	flex: 1;
+}
+ 
+ 
+/* 弹性布局盒模型可换行 */
+.rowW {
+	display: -moz-box;
+	/* Firefox */
+	display: -ms-flexbox;
+	/* IE10 */
+	display: -webkit-box;
+	/* Safari */
+	display: -webkit-flex;
+	/* Chrome, WebKit */
+	display: box;
+	display: flexbox;
+	display: flex;
+	flex-wrap: wrap;
+}
+ 
+ 
+ 
+/* 水平垂直居中 */
+.centerXY {
+	display: -moz-box;
+	/* Firefox */
+	display: -ms-flexbox;
+	/* IE10 */
+	display: -webkit-box;
+	/* Safari */
+	display: -webkit-flex;
+	/* Chrome, WebKit */
+	display: box;
+	display: flexbox;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ 
+ 
+ 
+/* 上下居中 */
+.centerY {
+	display: -moz-box;
+	/* Firefox */
+	display: -ms-flexbox;
+	/* IE10 */
+	display: -webkit-box;
+	/* Safari */
+	display: -webkit-flex;
+	/* Chrome, WebKit */
+	display: box;
+	display: flexbox;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+ 
+ 
+ 
+/* 横向排列 */
+.rowX {
+	display: -moz-box;
+	/* Firefox */
+	display: -ms-flexbox;
+	/* IE10 */
+	display: -webkit-box;
+	/* Safari */
+	display: -webkit-flex;
+	/* Chrome, WebKit */
+	display: box;
+	display: flexbox;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+ 
+ 
+ 
+/* 横向排列,所有元素放置于底部 */
+.bottomY {
+	display: -moz-box;
+	/* Firefox */
+	display: -ms-flexbox;
+	/* IE10 */
+	display: -webkit-box;
+	/* Safari */
+	display: -webkit-flex;
+	/* Chrome, WebKit */
+	display: box;
+	display: flexbox;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+ 
+ 
+ 
+/* 左右居中 */
+.centerX {
+	display: -moz-box;
+	/* Firefox */
+	display: -ms-flexbox;
+	/* IE10 */
+	display: -webkit-box;
+	/* Safari */
+	display: -webkit-flex;
+	/* Chrome, WebKit */
+	display: box;
+	display: flexbox;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+ 
+ 
+ 
+/* 纵向排列 */
+.columnY {
+	display: -moz-box;
+	/* Firefox */
+	display: -ms-flexbox;
+	/* IE10 */
+	display: -webkit-box;
+	/* Safari */
+	display: -webkit-flex;
+	/* Chrome, WebKit */
+	display: box;
+	display: flexbox;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+ 
+ 
+ 
+/* 向左向右 */
+.betweenX {
+	display: -moz-box;
+	/* Firefox */
+	display: -ms-flexbox;
+	/* IE10 */
+	display: -webkit-box;
+	/* Safari */
+	display: -webkit-flex;
+	/* Chrome, WebKit */
+	display: box;
+	display: flexbox;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+ 
+ 
+ 
+/* 向上向下 */
+.betweenY {
+	display: -moz-box;
+	/* Firefox */
+	display: -ms-flexbox;
+	/* IE10 */
+	display: -webkit-box;
+	/* Safari */
+	display: -webkit-flex;
+	/* Chrome, WebKit */
+	display: box;
+	display: flexbox;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+ 
+.rightX {
+	display: -moz-box;
+	/* Firefox */
+	display: -ms-flexbox;
+	/* IE10 */
+	display: -webkit-box;
+	/* Safari */
+	display: -webkit-flex;
+	/* Chrome, WebKit */
+	display: box;
+	display: flexbox;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	/* justify-content: flex-end; */
+}
+.nopage{
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 12px;
+	color:#999999;
+}
+.nodata {
+	background: none !important;
+	width: 100%;
+	padding-top: 100px;
+	text-align:center;
+}
+.nodata img{
+	width: 90px;
+	height: 80px; 
+	margin:auto;
+}
+.nodata p{
+	font-size: 12px; 
+	color:#999999; 
+	margin-top: 13px;
+}
+.return-top{position: fixed;right: 15px;bottom:50px;z-index: 9;display: none;}
+.return-top a{width: 40px;height: 40px;display: block;border: 1px solid #eaeaea;background: #fff;border-radius: 50%;box-shadow: 0 0 2px #eaeaea;}
+.return-top a img{position: absolute;top: 50%;left: 50%;margin-top: -14.5px;margin-left: -14.5px;}
+.return-top .none{display: none!important;}
