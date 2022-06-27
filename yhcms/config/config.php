@@ -1,6 +1,6 @@
 <?php if (!defined('FCPATH')) exit('No direct script access allowed');
 return array (
-  'name' => '英皇影视',
+  'name' => '采集站',
   'url' => 'localyh',
   'wapurl' => '',
   'qq' => '888888',
@@ -10,7 +10,7 @@ return array (
   'sys_key' => '956ac17ffbe6adce449b9b12f1df06ac',
   'payurl' => '',
   'ffurl' => '',
-  'sharewxqq' => 0,
+  'sharewxqq' => '0',
   'shareurl' => 
   array (
   ),
@@ -54,8 +54,8 @@ return array (
   ),
   'proved' => 
   array (
-    'init' => '2',
-    'time' => '20',
+    'init' => '1',
+    'time' => '15',
     'nums' => '3',
   ),
   'user' => 

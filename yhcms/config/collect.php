@@ -6,9 +6,9 @@ return array (
     'rktime' => '0',
     'update' => '1',
     'hits_rand' => '0',
-    'ruku_size' => '20',
     'min_hits' => '1000',
     'max_hits' => '999999',
+    'ruku_size' => '20',
     'upzd' => 
     array (
       0 => 'state',
@@ -453,6 +453,15 @@ return array (
   ),
   'ting' => 
   array (
+    'qq' => 
+    array (
+      'name' => 'qq',
+      'url' => 'http://api.travelbooking.cc/xml/index/qq',
+      'time' => '未执行',
+      'day' => 1,
+      'i' => 360,
+      'pass' => 'nVMXBypiw4FfTrR6',
+    ),
   ),
   'pay' => 
   array (
@@ -487,6 +496,11 @@ return array (
       'cion' => 0,
     ),
     'sugengzy' => 
+    array (
+      'pay' => 0,
+      'cion' => 0,
+    ),
+    'yhcms' => 
     array (
       'pay' => 0,
       'cion' => 0,
